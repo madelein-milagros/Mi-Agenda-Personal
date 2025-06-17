@@ -1,0 +1,130 @@
+/* Fuentes y fondo */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #ffe0f0, #e0f7fa);
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #5c5470;
+  margin-bottom: 2rem;
+}
+
+/* Formulario */
+form {
+  background: #fff8fb;
+  padding: 1.8rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #6a5d7b;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+}
+
+input:focus {
+  border-color: #d19fbc;
+  outline: none;
+}
+
+/* Botón guardar */
+button[type="submit"] {
+  margin-top: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  background: #f3a1c1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #e58db1;
+}
+
+/* Lista de contactos */
+#contactos-lista {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contacto-card {
+  background: #ffffff;
+  border-left: 6px solid #f3a1c1;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+  transition: transform 0.2s;
+}
+
+.contacto-card:hover {
+  transform: scale(1.01);
+}
+
+.contacto-card h3 {
+  margin: 0;
+  color: #6a5d7b;
+  font-size: 1.2rem;
+}
+
+.contacto-card p {
+  margin: 0.3rem 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Botones de acción */
+.contacto-card .acciones {
+  margin-top: 0.6rem;
+}
+
+.acciones button {
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.4rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 0.9rem;
+}
+
+.btn-editar {
+  background-color: #a3d2ca;
+  color: #333;
+}
+
+.btn-editar:hover {
+  background-color: #89c3b0;
+}
+
+.btn-eliminar {
+  background-color: #f5b7b1;
+  color: #333;
+}
+
+.btn-eliminar:hover {
+  background-color: #ec9a93;
+}
